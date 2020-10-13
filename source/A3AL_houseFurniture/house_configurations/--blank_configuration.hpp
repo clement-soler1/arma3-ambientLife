@@ -2,7 +2,7 @@
 class house_classname {
 	//needed for scripts purpose
 	class doorLockingSystem {
-		alwaysUnlockedDoors[] = {};
+		alwaysUnlockedDoors[] = {"door_3","door_4"};
 	}
 
 	class config_1 {
