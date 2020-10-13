@@ -11,5 +11,9 @@ class CfgPatches {
         authors[] = {"Hyronos"};
 };
 
-#include "Functions.hpp"
+
+class CfgFunctions {
+    #include "Functions.hpp"
+};
+
 #include "masterInclude.hpp"
