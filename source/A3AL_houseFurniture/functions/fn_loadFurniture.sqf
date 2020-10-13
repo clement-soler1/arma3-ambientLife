@@ -24,8 +24,8 @@ _house setVariable["A3AL_furnitures",[],true];
 _house setVariable["A3AL_furnitureType",getText(_config >> "type"),true];
 
 
-
-if (A3AL_advancedFurnitures) then {
+_activeAdvancedFurnitures = (missionConfigFile >> "A3AL_hf_master" >> "A3AL_advancedFurnitures") call BIS_fnc_GetCfgData;
+if (_activeAdvancedFurnitures) then {
 	_furnitures append (getArray(_config >> "advancedFurnitures"));
 };
 
